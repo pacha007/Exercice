@@ -61,8 +61,18 @@ TODO:
       case "plus":
         resultNum = oldNum + theNum;
         break;
+      case "minus":
+        resultNum = oldNum - theNum;
+        break;
 
-        // If equal is pressed without an operator, keep number and continue
+      case "times":
+        resultNum = oldNum * theNum;
+        break;
+
+      case "divided by":
+        resultNum = oldNum / theNum;
+        break;
+// If equal is pressed without an operator, keep number and continue
       default:
         resultNum = theNum;
     }
